@@ -1,0 +1,505 @@
+
+
+body{
+    background-color:#FFFFFF;
+    margin:0; 
+    padding:0;
+
+}
+
+.btn{
+    all: unset; /*  кикает все дефолт свойства кнопки */
+    display:block;
+    width:171px;
+    height:16px;
+    padding: 20px 32px;
+    margin:0 auto;
+    border-radius: 20px;
+    font-family:Montserrat;
+    font-size:12px;
+    font-weight:600;
+    color:#FFFFFF;
+    line-height:130%;
+    letter-spacing:5%;
+    text-transform:uppercase;
+    background-color: #181C29;
+
+}
+
+p{
+    font-family:Montserrat;
+    font-size:16px;
+    font-weight:400;
+    line-height:148%;
+    height:72px;
+}
+
+.container{
+    padding:0 12px;
+    height:64px;
+}
+
+.action_large{
+    font-family:Montserrat;
+    font-size:24px;
+    font-weight:600;
+    line-height:152%;
+    letter-spacing:16%;
+    text-transform:uppercase;
+}
+
+.header1{
+    font-family:Montserrat;
+    font-size:32px;
+    font-weight:600;
+    line-height:150%;
+    letter-spacing:18%;
+    text-transform:uppercase;
+    height:144px;
+    color:#FFFFFF;
+
+}
+
+.header2{
+    font-family:Montserrat;
+    font-size:24px;
+    font-weight:600;
+    line-height:152%;
+    letter-spacing:16%;
+    text-transform:uppercase;
+
+
+}
+
+.header3{
+    font-family:Montserrat;
+    font-size:16px;
+    font-weight:600;
+    line-height:152%;
+    letter-spacing:8%;
+    text-transform:uppercase;
+}
+
+.header4{
+    font-family:Montserrat;
+    font-size:12px;
+    font-weight:600;
+    line-height:130%;
+    letter-spacing:5%;
+    text-transform:uppercase;
+}
+
+header{
+    height:64px;
+}
+
+main{
+    background-color:#FF4646;
+    background-image:url("images/img-compressed/bg-snow.png");
+    background-position: center;
+    background-size:cover;
+    border-radius:10px;
+}
+
+
+
+.logo{
+    padding:20px 8px;
+}
+
+.hero_section{
+    display: flex; /* Тут не много собака зарыта с уменьшением экрана */
+    justify-content: center; 
+    align-items: center; 
+    height:524px;
+    background-size:contain;
+    background-image:url("images/img-compressed/bg-ball.png");
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.caption{
+    font-family:Allura; /* Контейнер секции Hero */
+    font-size:24px;
+    font-weight:400;
+    line-height:100%;
+    letter-spacing:5%;
+    margin: 12px 0;
+    color:#FFFFFF
+}
+
+.container_hero_section{ /* Контейнер секции Hero */
+    width:426px;
+    height:404px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_section{
+
+    height:648px;
+    background-color: #FF4646;
+    background-image: inherit;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container_about_section{
+    height:528px;
+    width:1276px;
+    display: flex; 
+    background-color: #ffffff;
+    border-radius: 20px;
+    
+}
+
+
+
+.container_container_about_section{
+    height:208px;
+    width:426px;
+    padding:160px 106px 160px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.container_about_section img{
+    width: 638px;
+    height:100%;
+    background-color: inherit;
+    border-radius: 20px;
+}
+
+.div1_container_container_about_section{
+    
+    font-family:Allura; /* Контейнер секции Hero */
+    font-size:24px;
+    font-weight:400;
+    line-height:100%;
+    letter-spacing:5%;
+    color:#FF4646
+}
+
+.div2_container_container_about_section{
+    height:72px;
+}
+
+.slider_section{
+    height:488px;
+    background-image: inherit;
+    background-color: #FF4646;
+
+}
+
+.container_slider_section{
+    margin: 0 auto;
+    height:368px;
+    width: 1440px;
+    padding:60px 0;
+    display:flex;
+    flex-direction:column;
+    overflow-x: hidden;
+    gap:20px;
+}
+
+.div1_container_container_slider_section{
+    height:72px;
+    width:426px;
+    margin:0 auto;
+    text-align:center;
+    color:#ffffff;
+}
+
+.row{
+    height:200px;
+    width:1276px;
+    margin:0 auto;
+
+}
+
+.div2_container_container_slider_section{
+    display:flex;
+    justify-content: flex-end;
+    gap:20px;
+}
+
+.div2_container_container_slider_section button{
+    all: unset;
+    height:56px;
+    width:56px;
+    border-radius: 20px;
+    
+}
+
+.slider{
+    height:200px;
+    width:1993px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    font-family: Montserrat;
+    font-size:80px;
+    font-weight:600;
+    text-transform:uppercase;
+    color:#FFFFFF
+}
+
+.img_slider{
+    height:200px;
+    width:200px;
+    border-radius:20px;
+}
+
+.div1_slider{
+    height:98px;
+    width:184px; 
+}
+
+.div2_slider{
+    height:98px;
+    width:330px; 
+}
+
+.div3_slider{
+    height:98px;
+    width:224px; 
+}
+
+.div4_slider{
+    height:98px;
+    width:315px; 
+}
+
+.bestGifts_section{
+    height:554px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    background-color: inherit;
+    background-image: inherit;
+}
+
+.container1_bestGifts_section{
+    height:72px;
+    width:426px; 
+    display:flex;
+    flex-direction:column;
+    margin: 60px auto 0;
+    text-align: center;
+}
+
+.container1_bestGifts_section .caption{
+    height:24px;
+    margin: 0 0 12px;
+}
+
+.container1_bestGifts_section .header2{
+    height:36px;
+    color:#ffffff;
+}
+
+.container2_bestGifts_section{
+    height:342px;
+    width:1276px; 
+    display:flex;  
+    gap:12px;
+    margin: 0 auto 60px;
+}
+
+.card{
+    height:342px;
+    width:310px;
+    border-radius:20px;
+    background-color:#ECF3F8;
+}
+
+.card img{
+    display:block;
+    height:230px;
+    width:310px;
+    border-radius:20px 20px 0 0;
+}
+
+.container_card{
+    padding:20px;
+    height:72px;
+    width:270px;
+    border-radius:0 0 20px 20px;
+    background-color:#FFFFFF;
+}
+
+.gift_for_work{
+    color:#4361FF;
+}
+
+.gift_for_health{
+    color:#06A44F;
+}
+
+.gift_for_harmony{
+    color:#06A44F;
+}
+
+.gift_fot_something{
+    color:#181C29;
+}
+
+.CTA_section{
+    height:668px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:inherit;
+    background-image:url("images/img-compressed/bg-snow.png"), url("images/img-compressed/bg-forest.png");
+    background-position: center, center;
+    background-size:contain, contain;
+    background-repeat: repeat, no-repeat;
+}
+
+.container_CTA_section{
+    height:548px;
+    width:1276px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container_container_CTA_section{
+    height:428px;
+    width:426px;
+    text-align: center;
+    color:#FFFFFF;
+    box-sizing:border-box;
+    padding:60px 0;
+}
+
+.container_container_CTA_section > .header2{
+    height: 108px;
+}
+
+.container_container_CTA_section button{
+    margin: 20px auto;
+}
+
+.container_container_container_CTA_section{
+    height:104px;
+}
+
+.container_container_container_CTA_section .caption{
+    margin: 0 0 8px;
+}
+
+.timer{
+    height:72px;
+    width:344px;
+    box-sizing:border-box;
+    display:flex;
+    align-items:center;
+    margin:0 auto;
+    padding:8px 12px 12px;
+    border-radius:20px;
+
+}
+
+.timer_sDiv{
+    height:52px;
+    width:79px;
+}
+
+.timer_sDiv_last{
+    height:52px;
+    width:80px;
+}
+
+.separator{
+    height:20px;
+    width:1px;
+    background-color:#FFFFFF;
+}
+
+footer {
+    height:496px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container_footer{
+    height:376px;
+    width:1276px;
+    margin:60px 82px;
+
+
+}
+
+.div1_footerS{
+    height:204px;
+    width:1276px;
+    display:flex;
+    gap:12px;
+    margin-bottom:60px;
+}
+
+.forSVG_footer{
+    height:204px;
+    width:417.33px;
+    box-sizing:border-box;
+    padding:20px 0;
+    display:flex;
+    gap:20px;
+    align-items:center;
+    flex-direction:column;
+    background-color:#ECF3F8;
+    border-radius:20px;
+}
+
+.forSVG_footer > img{
+    height:80px;
+    width:80px; 
+}
+
+.div2_footerS{
+    height:112px;
+    width:1276px; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:12px;
+}
+
+.social{
+    display:flex;
+    gap:12px;
+}
+
+.each_social{
+    height:40px;
+    width:40px; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.div2_footerS > .caption{
+    height:24px;
+    width:290px; 
+    color:black;
+    margin:0;
+}
+
+.div2_footerS > p{
+    margin:0;
+    padding:0;
+    height:24px;
+    width:301px; 
+}
